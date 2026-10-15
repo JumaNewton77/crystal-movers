@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Scan Blade views and React sources for class names. */
+@source "../views";
+@source "../js";
+
+/*
+ * Crystal Movers brand: Black + White + Sky Blue.
+ * Sky blue #0EA5E9 is Tailwind's sky-500; we expose semantic tokens so
+ * components say "bg-brand" rather than a raw colour.
+ */
+@theme {
+    --color-ink: #111827;
+    --color-brand: #0ea5e9;
+    --color-brand-dark: #0284c7;
+    --color-brand-soft: #e0f2fe;
+
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-white text-ink antialiased;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-brand);
+        outline-offset: 2px;
+    }
+}
+
+/* Reviews: one line of cards that glides from right to left. Pauses on hover/focus; static + scrollable for reduced motion. */
+@keyframes cm-marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+.cm-marquee { overflow: hidden; }
+.cm-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: cm-marquee var(--cm-marquee-duration, 40s) linear infinite;
+}
+.cm-marquee:hover .cm-marquee-track,
+.cm-marquee:focus-within .cm-marquee-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+    .cm-marquee { overflow-x: auto; }
+    .cm-marquee-track { animation: none; }
+}

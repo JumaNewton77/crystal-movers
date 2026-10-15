@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "name": "crystal-movers",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vite build --ssr",
+        "prerender": "node scripts/prerender.mjs",
+        "preview:static": "node scripts/static-preview.mjs",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0",
+        "react-router-dom": "^6.30.6"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.3.3",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "@vitejs/plugin-react": "^6.1.2",
+        "laravel-vite-plugin": "^3.2.0",
+        "tailwindcss": "^4.3.3",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.3"
+    }
+}

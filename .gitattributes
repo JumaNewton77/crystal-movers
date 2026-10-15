@@ -1,0 +1,3 @@
+# Keep Linux scripts with LF line endings even when Git on Windows converts text files (CRLF breaks `#!/bin/sh`).
+*.sh text eol=lf
+Dockerfile text eol=lf

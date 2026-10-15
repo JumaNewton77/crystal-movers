@@ -1,0 +1,492 @@
+{
+    "categories": [
+        {
+            "slug": "moving",
+            "name": "Moving & Relocation",
+            "icon": "truck",
+            "description": "Home, office, local and inter-county moving.",
+            "sort_order": 1
+        },
+        {
+            "slug": "cctv-security",
+            "name": "CCTV & Security Systems",
+            "icon": "camera",
+            "description": "CCTV camera installation, repairs and security camera setup.",
+            "sort_order": 2
+        },
+        {
+            "slug": "internet-networking",
+            "name": "Internet, Wi-Fi & Networking",
+            "icon": "wifi",
+            "description": "Wi-Fi, network and router installation, troubleshooting and repairs.",
+            "sort_order": 3
+        },
+        {
+            "slug": "tv-satellite",
+            "name": "TV, Satellite & Entertainment",
+            "icon": "tv",
+            "description": "TV mounting, DStv and GOtv, satellite dish and Starlink installation.",
+            "sort_order": 4
+        },
+        {
+            "slug": "washing-machine",
+            "name": "Washing Machine Services",
+            "icon": "wrench",
+            "description": "Washing machine installation, repairs and servicing.",
+            "sort_order": 5
+        },
+        {
+            "slug": "lighting",
+            "name": "Lighting Installation",
+            "icon": "bulb",
+            "description": "Chandeliers, modern ceiling lights and light fitting replacement.",
+            "sort_order": 6
+        },
+        {
+            "slug": "shower",
+            "name": "Shower Installation & Repairs",
+            "icon": "droplet",
+            "description": "Shower installation, replacement and repairs.",
+            "sort_order": 7
+        },
+        {
+            "slug": "furniture-assembly",
+            "name": "Furniture Assembly",
+            "icon": "bed",
+            "description": "Assembly of beds, wardrobes, desks, shelves and flat-pack furniture.",
+            "sort_order": 8
+        }
+    ],
+    "services": [
+        {
+            "slug": "residential-moving",
+            "title": "Home and Residential Moving",
+            "category": "moving",
+            "status": "active",
+            "short_description": "Household relocations for homes and apartments. Tell us where you are moving from and to.",
+            "description": "Crystal Movers helps families and individuals relocate their homes. Tell us about your move and our team will review your requirements and contact you with a quotation based on what you actually need.",
+            "benefits": [
+                "Careful handling of furniture and household belongings",
+                "Protective materials used during loading and transport",
+                "Clear communication from request to delivery",
+                "A quotation based on your moving requirements"
+            ],
+            "seo_title": "Home and Residential Moving in Kenya",
+            "seo_description": "Move your home with care, from pickup to delivery.",
+            "sort_order": 1
+        },
+        {
+            "slug": "office-relocation",
+            "title": "Office and Business Relocation",
+            "category": "moving",
+            "status": "active",
+            "short_description": "Office and business moves planned to keep disruption low.",
+            "description": "Moving your business? Share your requirements and Crystal Movers will plan your office or business relocation and prepare a quotation for your move.",
+            "benefits": [
+                "Planning around your move date and building access",
+                "Careful handling of furniture, equipment and files",
+                "Clear communication with your team",
+                "A quotation based on your requirements"
+            ],
+            "seo_title": "Office and Business Relocation in Kenya",
+            "seo_description": "Office and business moves planned to keep disruption low.",
+            "sort_order": 2
+        },
+        {
+            "slug": "local-and-inter-county-moving",
+            "title": "Local and Inter-County Moving",
+            "category": "moving",
+            "status": "active",
+            "short_description": "Moves within town and between counties across Kenya.",
+            "description": "Whether you are moving across town or to another county, tell us the pickup and delivery locations and we will contact you with a quotation.",
+            "benefits": [
+                "Moves within Nairobi and between Kenyan counties",
+                "Pickup and delivery locations agreed with you",
+                "A quotation based on distance and requirements"
+            ],
+            "seo_title": "Local and Inter-County Moving in Kenya",
+            "seo_description": "Moves within town and between counties across Kenya.",
+            "sort_order": 3
+        },
+        {
+            "slug": "international-moving",
+            "title": "International Moving",
+            "category": "moving",
+            "status": "coming_soon",
+            "short_description": "International moving is not available yet.",
+            "description": "International moving is not yet available. Contact Crystal Movers to register your interest.",
+            "benefits": [],
+            "seo_title": "International Moving in Kenya",
+            "seo_description": "International moving is not available yet.",
+            "sort_order": 5
+        },
+        {
+            "slug": "cctv-installation",
+            "title": "CCTV Installation",
+            "category": "cctv-security",
+            "status": "active",
+            "short_description": "Installation of CCTV cameras for homes and businesses.",
+            "description": "Tell us about your property and what you want to cover, and we will contact you to discuss the CCTV installation and give a quotation.",
+            "benefits": [
+                "Camera positions discussed for your property",
+                "Cabling and equipment set up by our technician",
+                "System tested after installation"
+            ],
+            "seo_title": "CCTV Installation in Kenya",
+            "seo_description": "Installation of CCTV cameras for homes and businesses.",
+            "sort_order": 6
+        },
+        {
+            "slug": "cctv-troubleshooting-and-repairs",
+            "title": "CCTV Troubleshooting and Repairs",
+            "category": "cctv-security",
+            "status": "active",
+            "short_description": "Fault finding and repairs for existing CCTV systems.",
+            "description": "Cameras not recording or showing no picture? Describe the problem and we will contact you to arrange an inspection and repair.",
+            "benefits": [
+                "Fault diagnosis on existing CCTV systems",
+                "Repair or replacement of faulty parts",
+                "System checked after the repair"
+            ],
+            "seo_title": "CCTV Troubleshooting and Repairs in Kenya",
+            "seo_description": "Fault finding and repairs for existing CCTV systems.",
+            "sort_order": 7
+        },
+        {
+            "slug": "security-camera-setup",
+            "title": "Security Camera Setup",
+            "category": "cctv-security",
+            "status": "active",
+            "short_description": "Setting up security cameras and viewing access.",
+            "description": "Already have cameras? We can set them up, connect them to your network and help you set up viewing.",
+            "benefits": [
+                "Camera configuration and network connection",
+                "Viewing set up on supported devices",
+                "Guidance on basic use"
+            ],
+            "seo_title": "Security Camera Setup in Kenya",
+            "seo_description": "Setting up security cameras and viewing access.",
+            "sort_order": 8
+        },
+        {
+            "slug": "wifi-installation-and-troubleshooting",
+            "title": "Wi-Fi Installation and Troubleshooting",
+            "category": "internet-networking",
+            "status": "active",
+            "short_description": "Wi-Fi installation and help with weak or unreliable connections.",
+            "description": "Describe your space and the problem, and we will contact you to arrange Wi-Fi installation or troubleshooting.",
+            "benefits": [
+                "Wi-Fi equipment installed and configured",
+                "Coverage problems and dropouts investigated",
+                "Connection tested after the work"
+            ],
+            "seo_title": "Wi-Fi Installation and Troubleshooting in Kenya",
+            "seo_description": "Reliable Wi-Fi set up and weak or dropped connections fixed.",
+            "sort_order": 9
+        },
+        {
+            "slug": "network-installation-and-repairs",
+            "title": "Network Installation and Repairs",
+            "category": "internet-networking",
+            "status": "active",
+            "short_description": "Wired and wireless network installation and repairs.",
+            "description": "From new network cabling to repairing faults, tell us what you need and we will prepare a quotation.",
+            "benefits": [
+                "Network cabling and equipment installation",
+                "Fault finding and repairs",
+                "Setup tested after installation"
+            ],
+            "seo_title": "Network Installation and Repairs in Kenya",
+            "seo_description": "Wired and wireless network installation and repairs.",
+            "sort_order": 10
+        },
+        {
+            "slug": "router-and-connectivity-setup",
+            "title": "Router and Connectivity Setup",
+            "category": "internet-networking",
+            "status": "active",
+            "short_description": "Router set up and internet connectivity configured.",
+            "description": "We set up and configure your router and connected devices so your internet works as it should.",
+            "benefits": [
+                "Router configuration",
+                "Devices connected and tested",
+                "Basic guidance on using your network"
+            ],
+            "seo_title": "Router and Connectivity Setup in Kenya",
+            "seo_description": "Router set up and internet connectivity configured.",
+            "sort_order": 11
+        },
+        {
+            "slug": "tv-mounting",
+            "title": "TV Mounting",
+            "category": "tv-satellite",
+            "status": "active",
+            "short_description": "Wall mounting for TVs of different sizes.",
+            "description": "Tell us your TV size and wall type and we will contact you to arrange mounting.",
+            "benefits": [
+                "TV mounted on the wall at the position you choose",
+                "Suitable fixings used for your wall type",
+                "Cables arranged neatly where possible"
+            ],
+            "seo_title": "TV Mounting in Kenya",
+            "seo_description": "Wall mounting for TVs of different sizes.",
+            "sort_order": 12
+        },
+        {
+            "slug": "dstv-installation-and-setup",
+            "title": "DStv Installation and Setup",
+            "category": "tv-satellite",
+            "status": "active",
+            "short_description": "DStv dish and decoder installation and setup.",
+            "description": "We install and set up your DStv equipment. Tell us about your home and we will contact you with details and a quotation.",
+            "benefits": [
+                "Dish and decoder installation",
+                "Signal checked after installation",
+                "Setup of your viewing equipment"
+            ],
+            "seo_title": "DStv Installation and Setup in Kenya",
+            "seo_description": "DStv dish and decoder installation and setup.",
+            "sort_order": 13
+        },
+        {
+            "slug": "gotv-installation-and-setup",
+            "title": "GOtv Installation and Setup",
+            "category": "tv-satellite",
+            "status": "active",
+            "short_description": "GOtv antenna and decoder installation and setup.",
+            "description": "We install and set up your GOtv equipment. Share your location and we will contact you with details and a quotation.",
+            "benefits": [
+                "Antenna and decoder installation",
+                "Signal checked after installation",
+                "Equipment set up for viewing"
+            ],
+            "seo_title": "GOtv Installation and Setup in Kenya",
+            "seo_description": "GOtv antenna and decoder installation and setup.",
+            "sort_order": 14
+        },
+        {
+            "slug": "satellite-dish-installation-and-alignment",
+            "title": "Satellite Dish Installation and Alignment",
+            "category": "tv-satellite",
+            "status": "active",
+            "short_description": "Satellite dish installation and alignment.",
+            "description": "Need a dish installed or realigned? Tell us what you have and we will arrange installation or alignment.",
+            "benefits": [
+                "Dish installation and mounting",
+                "Alignment for the best available signal",
+                "Signal tested after the work"
+            ],
+            "seo_title": "Satellite Dish Installation and Alignment in Kenya",
+            "seo_description": "Satellite dish installation and alignment.",
+            "sort_order": 15
+        },
+        {
+            "slug": "starlink-installation-and-setup",
+            "title": "Starlink Installation and Setup",
+            "category": "tv-satellite",
+            "status": "active",
+            "short_description": "Starlink installation and setup.",
+            "description": "We help install and set up your Starlink equipment. Tell us about your location and we will contact you.",
+            "benefits": [
+                "Dish mounting position discussed with you",
+                "Equipment connected and set up",
+                "Connection tested after installation"
+            ],
+            "seo_title": "Starlink Installation and Setup in Kenya",
+            "seo_description": "Starlink installation and setup.",
+            "sort_order": 16
+        },
+        {
+            "slug": "washing-machine-installation",
+            "title": "Washing Machine Installation",
+            "category": "washing-machine",
+            "status": "active",
+            "short_description": "Installation of washing machines.",
+            "description": "We install your washing machine and connect it correctly. Tell us the model and location and we will contact you.",
+            "benefits": [
+                "Water and drain connections",
+                "Machine levelled and tested",
+                "Short test run after installation"
+            ],
+            "seo_title": "Washing Machine Installation in Kenya",
+            "seo_description": "Installation of washing machines.",
+            "sort_order": 17
+        },
+        {
+            "slug": "washing-machine-repairs",
+            "title": "Washing Machine Repairs",
+            "category": "washing-machine",
+            "status": "active",
+            "short_description": "Repairs for washing machine faults.",
+            "description": "Describe the fault and the machine model, and we will contact you to arrange an inspection and repair.",
+            "benefits": [
+                "Fault diagnosis",
+                "Repair or replacement of faulty parts",
+                "Machine tested after the repair"
+            ],
+            "seo_title": "Washing Machine Repairs in Kenya",
+            "seo_description": "Repairs for washing machine faults.",
+            "sort_order": 18
+        },
+        {
+            "slug": "washing-machine-maintenance-and-servicing",
+            "title": "Washing Machine Maintenance and Servicing",
+            "category": "washing-machine",
+            "status": "active",
+            "short_description": "Servicing to keep your washing machine in good condition.",
+            "description": "Regular maintenance helps your machine last longer. Tell us about your machine and we will arrange a service.",
+            "benefits": [
+                "General inspection and cleaning",
+                "Checks of hoses and connections",
+                "Advice on caring for your machine"
+            ],
+            "seo_title": "Washing Machine Maintenance and Servicing in Kenya",
+            "seo_description": "Servicing to keep your washing machine in good condition.",
+            "sort_order": 19
+        },
+        {
+            "slug": "chandelier-installation",
+            "title": "Chandelier Installation",
+            "category": "lighting",
+            "status": "active",
+            "short_description": "Installation of chandeliers, subject to the fitting and site requirements.",
+            "description": "Tell us about your chandelier and ceiling, and we will contact you to arrange installation.",
+            "benefits": [
+                "Secure fixing to the ceiling",
+                "Wiring connected and tested",
+                "Fitting checked after installation"
+            ],
+            "seo_title": "Chandelier Installation in Kenya",
+            "seo_description": "Safe installation of chandeliers.",
+            "sort_order": 20
+        },
+        {
+            "slug": "modern-ceiling-light-installation",
+            "title": "Modern Ceiling Light Installation",
+            "category": "lighting",
+            "status": "active",
+            "short_description": "Installation of modern ceiling lights.",
+            "description": "We install ceiling lights of different styles. Tell us how many and where, and we will contact you.",
+            "benefits": [
+                "Light fittings installed and wired",
+                "Positions agreed with you",
+                "Lights tested after installation"
+            ],
+            "seo_title": "Modern Ceiling Light Installation in Kenya",
+            "seo_description": "Installation of modern ceiling lights.",
+            "sort_order": 21
+        },
+        {
+            "slug": "light-fitting-replacement",
+            "title": "Light Fitting Replacement",
+            "category": "lighting",
+            "status": "active",
+            "short_description": "Replacement of old or faulty light fittings.",
+            "description": "Replace a faulty or outdated fitting with a new one. Describe what you have and we will contact you.",
+            "benefits": [
+                "Old fitting removed",
+                "New fitting installed and wired",
+                "Lights tested after replacement"
+            ],
+            "seo_title": "Light Fitting Replacement in Kenya",
+            "seo_description": "Replacement of old or faulty light fittings.",
+            "sort_order": 22
+        },
+        {
+            "slug": "shower-installation",
+            "title": "Shower Installation",
+            "category": "shower",
+            "status": "active",
+            "short_description": "Installation of showers.",
+            "description": "Tell us the type of shower and your bathroom setup, and we will contact you to arrange installation.",
+            "benefits": [
+                "Shower unit installed and connected",
+                "Connections checked for leaks",
+                "Shower tested after installation"
+            ],
+            "seo_title": "Shower Installation in Kenya",
+            "seo_description": "Installation of showers.",
+            "sort_order": 23
+        },
+        {
+            "slug": "shower-replacement",
+            "title": "Shower Replacement",
+            "category": "shower",
+            "status": "active",
+            "short_description": "Replacing an old or damaged shower.",
+            "description": "Remove an old shower and fit a new one. Describe what you have and we will contact you.",
+            "benefits": [
+                "Old shower removed",
+                "New shower installed",
+                "Connections checked for leaks"
+            ],
+            "seo_title": "Shower Replacement in Kenya",
+            "seo_description": "Replacing an old or damaged shower.",
+            "sort_order": 24
+        },
+        {
+            "slug": "shower-troubleshooting-and-repairs",
+            "title": "Shower Troubleshooting and Repairs",
+            "category": "shower",
+            "status": "active",
+            "short_description": "Fixing shower faults such as low pressure or leaks.",
+            "description": "Describe the problem and we will contact you to arrange an inspection and repair.",
+            "benefits": [
+                "Fault diagnosis",
+                "Repair or replacement of faulty parts",
+                "Shower tested after the repair"
+            ],
+            "seo_title": "Shower Troubleshooting and Repairs in Kenya",
+            "seo_description": "Fixing shower faults such as low pressure or leaks.",
+            "sort_order": 25
+        },
+        {
+            "slug": "bed-and-wardrobe-assembly",
+            "title": "Bed and Wardrobe Assembly",
+            "category": "furniture-assembly",
+            "status": "active",
+            "short_description": "Assembly of beds and wardrobes.",
+            "description": "Tell us what needs assembling and we will contact you to arrange a visit.",
+            "benefits": [
+                "Furniture assembled from the manufacturer's parts",
+                "Pieces secured and checked",
+                "Packaging cleared where agreed"
+            ],
+            "seo_title": "Bed and Wardrobe Assembly in Kenya",
+            "seo_description": "Assembly of beds and wardrobes.",
+            "sort_order": 26
+        },
+        {
+            "slug": "desk-and-office-furniture-assembly",
+            "title": "Desk and Office Furniture Assembly",
+            "category": "furniture-assembly",
+            "status": "active",
+            "short_description": "Assembly of desks and office furniture.",
+            "description": "Setting up an office or a home workspace? Tell us what you need assembled and we will contact you.",
+            "benefits": [
+                "Desks, chairs and storage assembled",
+                "Pieces secured and checked",
+                "Suitable for homes and offices"
+            ],
+            "seo_title": "Desk and Office Furniture Assembly in Kenya",
+            "seo_description": "Assembly of desks and office furniture.",
+            "sort_order": 27
+        },
+        {
+            "slug": "shelf-and-flat-pack-furniture-assembly",
+            "title": "Shelf and Flat-Pack Furniture Assembly",
+            "category": "furniture-assembly",
+            "status": "active",
+            "short_description": "Assembly of shelves and flat-pack furniture.",
+            "description": "From shelves to other flat-pack items, tell us what you have and we will contact you.",
+            "benefits": [
+                "Flat-pack furniture assembled",
+                "Shelves secured as needed",
+                "Pieces checked after assembly"
+            ],
+            "seo_title": "Shelf and Flat-Pack Furniture Assembly in Kenya",
+            "seo_description": "Assembly of shelves and flat-pack furniture.",
+            "sort_order": 28
+        }
+    ]
+}
